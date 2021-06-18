@@ -12,7 +12,7 @@ for num in 1...100 {
 
 
 // Second Challenge 
-// checkPrime can be changed to a positive number greater than 1
+// checkPrime can be changed to a positive number greater than 2
 var checkPrime = 17
 // Assume the number is prime until proven otherwise
 var isPrime = true
