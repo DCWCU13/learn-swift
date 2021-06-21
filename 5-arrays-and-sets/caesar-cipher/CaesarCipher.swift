@@ -21,5 +21,8 @@ for i in 0 ..< message.count {
   }
   
 }
+//There is no optional soultion to print the Array message into a String. Can you please add?
+
+
 
 print(message)
