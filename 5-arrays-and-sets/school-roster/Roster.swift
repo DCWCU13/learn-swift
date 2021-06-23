@@ -61,3 +61,32 @@ for aClass in classSet {
 }
 print ("There are \(sevenPlus) classes with seven or more students.")
 
+
+//There are no Optional Challenge answers, here is what I came up with:
+
+//Optional Challenge 1:
+
+var spanish101: Set = ["Angela", "Declan", "Aldany", "Alex", "Sonny", "Alif", "Skyla"]
+spanish101.remove ("Skyla")
+var german101: Set = ["Angela", "Alex", "Declan", "Kenny", "Cynara", "Adam"]
+german101.remove ("Skyla")
+var advancedCalculus: Set = ["Cynara", "Gabby", "Angela", "Samantha", "Ana", "Aldany", "Galina", "Jasmine"]
+advancedCalculus.remove ("Skyla")
+var artHistory: Set = ["Samantha", "Vanessa", "Aldrian", "Cynara", "Kenny", "Declan", "Skyla"]
+artHistory.remove ("Skyla")
+var englishLiterature: Set = ["Gabby", "Jasmine", "Alex", "Alif", "Aldrian", "Adam", "Angela"]
+englishLiterature.remove ("Skyla")
+var computerScience: Set = ["Galina", "Kenny", "Sonny", "Alex", "Skyla"]
+computerScience.remove ("Skyla")
+
+//Optional Challenge 2-3:
+
+var fieldTrip = computerScience.union(advancedCalculus)
+print()
+print("The names of all the students going on the field trip are:\n\n\(fieldTrip)")
+print()
+var newlistFT = fieldTrip.subtracting(german101)
+print("The names of all the students who can go on the field trip because they aren't in German 101:\n\n\(newlistFT)")
+
+
+
